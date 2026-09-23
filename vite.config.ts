@@ -73,8 +73,17 @@ function serveBrandAssetDirs(): Plugin {
   };
 }
 
+const getBasePath = () => {
+  if (process.env.BASE_URL) return process.env.BASE_URL;
+  if (process.env.GITHUB_REPOSITORY) {
+    const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
+    return `/${repo}/`;
+  }
+  return './';
+};
+
 export default defineConfig({
-  base: './',
+  base: getBasePath(),
   plugins: [
     react(),
     tailwindcss(),
