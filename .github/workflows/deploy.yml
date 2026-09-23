@@ -35,8 +35,6 @@ jobs:
         run: npm install
 
       - name: Build site with Vite
-        env:
-          BASE_URL: '/vibtools-brand-assets/'
         run: npm run build
 
       - name: Setup Pages

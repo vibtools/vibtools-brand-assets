@@ -76,11 +76,7 @@ function serveBrandAssetDirs(): Plugin {
 const getBasePath = (isDev: boolean) => {
   if (isDev) return '/';
   if (process.env.BASE_URL) return process.env.BASE_URL;
-  if (process.env.GITHUB_REPOSITORY) {
-    const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
-    return `/${repo}/`;
-  }
-  return '/vibtools-brand-assets/';
+  return './';
 };
 
 export default defineConfig(({ command }) => {
