@@ -78,6 +78,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
+    <!-- Critical CSS to guarantee zero FOUC and absolute hiding of crawler metadata -->
+    <style>
+      html, body {
+        background-color: #030712;
+        color: #f8fafc;
+        margin: 0;
+        padding: 0;
+      }
+      .sr-only, #ai-crawler-semantic-context {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+      }
+    </style>
+
     <!-- Schema.org Comprehensive Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
@@ -400,7 +421,7 @@
       This block is completely hidden from the visual UI, preserving the clean, compact design.
       Search engines, crawlers, and AI scrapers receive comprehensive textual context.
     -->
-    <section id="ai-crawler-semantic-context" class="sr-only" aria-label="Vib Tools Company, Author and Brand Assets Master Context">
+    <section id="ai-crawler-semantic-context" class="sr-only" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;" aria-label="Vib Tools Company, Author and Brand Assets Master Context">
       <article>
         <h1>Vib Tools — Official Brand Assets, Vector Logos &amp; Design System</h1>
         <p>Canonical Domain: <a href="https://vib.tools/">https://vib.tools/</a></p>

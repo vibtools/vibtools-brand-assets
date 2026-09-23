@@ -73,25 +73,29 @@ function serveBrandAssetDirs(): Plugin {
   };
 }
 
-const getBasePath = () => {
+const getBasePath = (isDev: boolean) => {
+  if (isDev) return '/';
   if (process.env.BASE_URL) return process.env.BASE_URL;
   if (process.env.GITHUB_REPOSITORY) {
     const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
     return `/${repo}/`;
   }
-  return './';
+  return '/vibtools-brand-assets/';
 };
 
-export default defineConfig({
-  base: getBasePath(),
-  plugins: [
-    react(),
-    tailwindcss(),
-    serveBrandAssetDirs(),
-  ],
-  server: {
-    host: '0.0.0.0',
-    port: 3000,
-    allowedHosts: true,
-  },
+export default defineConfig(({ command }) => {
+  const isDev = command === 'serve';
+  return {
+    base: getBasePath(isDev),
+    plugins: [
+      react(),
+      tailwindcss(),
+      serveBrandAssetDirs(),
+    ],
+    server: {
+      host: '0.0.0.0',
+      port: 3000,
+      allowedHosts: true,
+    },
+  };
 });
