@@ -14,20 +14,17 @@
       <stop offset="1" stop-color="#08E0DE"/>
     </linearGradient>
 
-```
-<linearGradient id="blue" gradientUnits="userSpaceOnUse"
-                x1="260" y1="350" x2="820" y2="920">
-  <stop offset="0" stop-color="#087AFF"/>
-  <stop offset="1" stop-color="#004DF7"/>
-</linearGradient>
+    <linearGradient id="blue" gradientUnits="userSpaceOnUse"
+                    x1="260" y1="350" x2="820" y2="920">
+      <stop offset="0" stop-color="#087AFF"/>
+      <stop offset="1" stop-color="#004DF7"/>
+    </linearGradient>
 
-<linearGradient id="cyan" gradientUnits="userSpaceOnUse"
-                x1="1040" y1="350" x2="770" y2="700">
-  <stop offset="0" stop-color="#13E3DE"/>
-  <stop offset="1" stop-color="#00B9F7"/>
-</linearGradient>
-```
-
+    <linearGradient id="cyan" gradientUnits="userSpaceOnUse"
+                    x1="1040" y1="350" x2="770" y2="700">
+      <stop offset="0" stop-color="#13E3DE"/>
+      <stop offset="1" stop-color="#00B9F7"/>
+    </linearGradient>
   </defs>
 
   <rect width="1254" height="1254" fill="#FFFFFF"/>

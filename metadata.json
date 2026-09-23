@@ -1,0 +1,8 @@
+{
+  "name": "Vib.Tools Brand Assets & Design System",
+  "description": "Official brand identity portal, vector logos, BIMI email assets, favicons, color system, and design guidelines for Vib.Tools.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
