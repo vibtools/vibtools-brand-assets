@@ -7,7 +7,7 @@ import { ColorSystemSection } from './components/ColorSystemSection';
 import { GuidelinesSection } from './components/GuidelinesSection';
 import { FaviconGeneratorSection } from './components/FaviconGeneratorSection';
 import { BRAND_ASSETS, BrandAsset } from './data/brandAssets';
-import { downloadAllBrandAssetsZip } from './utils/assetHelpers';
+import { downloadAllBrandAssetsZip, getAssetUrl } from './utils/assetHelpers';
 import { 
   Sparkles, 
   Download, 
@@ -147,7 +147,7 @@ export default function App() {
                   <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-500 rounded-full blur-2xl opacity-40 group-hover:opacity-80 transition duration-500 animate-pulse" />
                   <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full bg-[#000713] p-4 border-2 border-cyan-500/40 shadow-2xl flex items-center justify-center transform group-hover:scale-105 transition-transform duration-300">
                     <img 
-                      src="/logos/logo-master.svg" 
+                      src={getAssetUrl('logos/logo-master.svg')} 
                       alt="Vib.Tools Master Emblem" 
                       className="w-full h-full object-contain filter drop-shadow-2xl"
                     />
@@ -277,7 +277,7 @@ export default function App() {
       <footer className="w-full border-t border-slate-800/80 bg-slate-950/80 backdrop-blur-md py-8 mt-16 text-xs text-slate-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src="/logos/logo-master.svg" alt="Vib.Tools" className="w-6 h-6 object-contain" />
+            <img src={getAssetUrl('logos/logo-master.svg')} alt="Vib.Tools" className="w-6 h-6 object-contain" />
             <span className="font-bold text-white tracking-tight">Vib.Tools Brand Assets Portal</span>
           </div>
 

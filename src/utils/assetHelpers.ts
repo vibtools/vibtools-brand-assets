@@ -1,12 +1,15 @@
 import JSZip from 'jszip';
 import { BRAND_ASSETS } from '../data/brandAssets';
+import { getAssetUrl } from './url';
+
+export { getAssetUrl };
 
 /**
  * Downloads a file directly via a temporary anchor element
  */
 export function downloadFile(url: string, filename: string) {
   const link = document.createElement('a');
-  link.href = url;
+  link.href = getAssetUrl(url);
   link.download = filename;
   document.body.appendChild(link);
   link.click();

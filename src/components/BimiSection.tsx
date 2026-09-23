@@ -13,7 +13,7 @@ import {
   Smartphone,
   Laptop
 } from 'lucide-react';
-import { copyToClipboard, downloadFile } from '../utils/assetHelpers';
+import { copyToClipboard, downloadFile, getAssetUrl } from '../utils/assetHelpers';
 
 export const BimiSection: React.FC = () => {
   const [copiedRecord, setCopiedRecord] = useState(false);
@@ -189,7 +189,7 @@ export const BimiSection: React.FC = () => {
                 <div className="relative shrink-0">
                   <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-cyan-400 shadow-lg shadow-cyan-500/20 bg-[#000713]">
                     <img 
-                      src="/bimi/logo.svg" 
+                      src={getAssetUrl('bimi/logo.svg')} 
                       alt="Vib.Tools Verified BIMI Logo" 
                       className="w-full h-full object-contain p-0.5"
                     />
@@ -232,7 +232,7 @@ export const BimiSection: React.FC = () => {
             <div className="mt-5 p-4 rounded-xl bg-slate-950/80 border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3">
                 <img 
-                  src="/bimi/logo.svg" 
+                  src={getAssetUrl('bimi/logo.svg')} 
                   alt="BIMI SVG Preview" 
                   className="w-10 h-10 rounded-full bg-[#000713] p-1 border border-cyan-500/40"
                 />
@@ -244,7 +244,7 @@ export const BimiSection: React.FC = () => {
 
               <div className="flex items-center gap-2">
                 <a
-                  href="/bimi/logo.svg"
+                  href={getAssetUrl('bimi/logo.svg')}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-mono text-cyan-300 hover:text-white bg-slate-900 border border-slate-800 transition-colors"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/assetHelpers';
 import { 
   BookOpen, 
   CheckCircle2, 
@@ -86,7 +87,7 @@ export const GuidelinesSection: React.FC<GuidelinesSectionProps> = ({ onDownload
             <div className="relative p-8 rounded-xl bg-[#000713] border border-dashed border-cyan-500/40 flex items-center justify-center my-4">
               <div className="absolute top-2 left-2 text-[10px] font-mono text-cyan-400">Clearspace = 0.5 × R</div>
               <img 
-                src="/logos/logo-master.svg" 
+                src={getAssetUrl('logos/logo-master.svg')} 
                 alt="Clearspace Preview" 
                 className="w-24 h-24 object-contain filter drop-shadow" 
               />

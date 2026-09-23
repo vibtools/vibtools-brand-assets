@@ -54,11 +54,27 @@ function serveBrandAssetDirs(): Plugin {
           }
         }
       }
+      // Emit .nojekyll for GitHub Pages to disable Jekyll processing
+      this.emitFile({
+        type: 'asset',
+        fileName: '.nojekyll',
+        source: '',
+      });
+    },
+    closeBundle() {
+      // Copy index.html to 404.html so GitHub Pages handles direct routes or refreshes
+      const distDir = path.join(process.cwd(), 'dist');
+      const distIndex = path.join(distDir, 'index.html');
+      const dist404 = path.join(distDir, '404.html');
+      if (fs.existsSync(distIndex)) {
+        fs.copyFileSync(distIndex, dist404);
+      }
     }
   };
 }
 
 export default defineConfig({
+  base: './',
   plugins: [
     react(),
     tailwindcss(),

@@ -1,3 +1,5 @@
+import { getAssetUrl } from '../utils/url';
+
 export interface BrandAsset {
   id: string;
   name: string;
@@ -14,7 +16,7 @@ export interface BrandAsset {
   tags: string[];
 }
 
-export const BRAND_ASSETS: BrandAsset[] = [
+const RAW_BRAND_ASSETS: BrandAsset[] = [
   // Logos
   {
     id: 'logo-master',
@@ -325,6 +327,11 @@ export const BRAND_ASSETS: BrandAsset[] = [
     tags: ['manifest', 'json', 'pwa', 'webmanifest']
   }
 ];
+
+export const BRAND_ASSETS: BrandAsset[] = RAW_BRAND_ASSETS.map((asset) => ({
+  ...asset,
+  url: getAssetUrl(asset.filePath),
+}));
 
 export interface ColorSwatch {
   name: string;

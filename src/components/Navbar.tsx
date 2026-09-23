@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/assetHelpers';
 import { 
   Download, 
   Sparkles, 
@@ -65,7 +66,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-full blur opacity-60 group-hover:opacity-100 transition duration-300"></div>
               <img 
-                src="/logos/logo-master.svg" 
+                src={getAssetUrl('logos/logo-master.svg')} 
                 alt="Vib.Tools Logo" 
                 className="relative w-9 h-9 rounded-full bg-[#000713] p-0.5 object-contain"
               />

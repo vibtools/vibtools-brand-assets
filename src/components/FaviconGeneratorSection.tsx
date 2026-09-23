@@ -11,7 +11,7 @@ import {
   Layers,
   Sparkles
 } from 'lucide-react';
-import { copyToClipboard, downloadFile } from '../utils/assetHelpers';
+import { copyToClipboard, downloadFile, getAssetUrl } from '../utils/assetHelpers';
 
 export const FaviconGeneratorSection: React.FC = () => {
   const [copiedSnippet, setCopiedSnippet] = useState<string | null>(null);
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
                 {/* Active Vib.Tools Tab */}
                 <div className="bg-[#1e293b] text-slate-200 px-3.5 py-1.5 rounded-t-lg text-xs font-medium flex items-center gap-2.5 max-w-xs truncate border-t border-x border-slate-700 shadow">
                   <img 
-                    src="/favicons/favicon.svg" 
+                    src={getAssetUrl('favicons/favicon.svg')} 
                     alt="VibTools Tab Icon" 
                     className="w-4 h-4 rounded-full object-contain shrink-0" 
                   />
@@ -151,7 +151,7 @@ export const metadata: Metadata = {
               {/* Viewport placeholder */}
               <div className="p-6 bg-[#090d16] flex items-center justify-center text-center">
                 <div className="flex items-center gap-3">
-                  <img src="/logos/logo-master.svg" alt="Vib.Tools" className="w-8 h-8" />
+                  <img src={getAssetUrl('logos/logo-master.svg')} alt="Vib.Tools" className="w-8 h-8" />
                   <span className="font-extrabold text-white text-base">Vib.Tools Ecosystem</span>
                 </div>
               </div>
@@ -160,14 +160,14 @@ export const metadata: Metadata = {
 
           <div className="mt-6 flex flex-wrap items-center gap-3 pt-4 border-t border-slate-800">
             <button
-              onClick={() => downloadFile('/favicons/favicon.svg', 'favicon.svg')}
+              onClick={() => downloadFile('favicons/favicon.svg', 'favicon.svg')}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-500/30 transition-colors"
             >
               <Download className="w-3.5 h-3.5" />
               Download favicon.svg
             </button>
             <button
-              onClick={() => downloadFile('/favicons/favicon.ico', 'favicon.ico')}
+              onClick={() => downloadFile('favicons/favicon.ico', 'favicon.ico')}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 transition-colors"
             >
               <Download className="w-3.5 h-3.5" />
@@ -193,7 +193,7 @@ export const metadata: Metadata = {
                 <div className="flex flex-col items-center gap-1.5 group cursor-pointer">
                   <div className="relative w-14 h-14 rounded-2xl p-1 bg-[#000713] border-2 border-cyan-500/60 shadow-lg shadow-cyan-500/30 flex items-center justify-center transform group-hover:scale-105 transition-transform">
                     <img 
-                      src="/favicons/apple-touch-icon.png" 
+                      src={getAssetUrl('favicons/apple-touch-icon.png')} 
                       alt="VibTools App Icon" 
                       className="w-full h-full object-contain rounded-xl"
                     />
