@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1254 1254">
+  <defs>
+    <linearGradient id="ring" gradientUnits="userSpaceOnUse" x1="0" y1="260" x2="1254" y2="994">
+      <stop offset="0" stop-color="#0647ED"/>
+      <stop offset="0.34" stop-color="#005CFC"/>
+      <stop offset="0.62" stop-color="#0078FF"/>
+      <stop offset="0.82" stop-color="#00BDF4"/>
+      <stop offset="1" stop-color="#08E0DE"/>
+    </linearGradient>
+
+    <linearGradient id="inner-ring" gradientUnits="userSpaceOnUse" x1="22" y1="305" x2="1232" y2="949">
+      <stop offset="0" stop-color="#0077FF"/>
+      <stop offset="0.52" stop-color="#0098FF"/>
+      <stop offset="1" stop-color="#00E5E4"/>
+    </linearGradient>
+
+    <radialGradient id="disc" gradientUnits="userSpaceOnUse" cx="613" cy="643" r="600">
+      <stop offset="0" stop-color="#00020A"/>
+      <stop offset="0.58" stop-color="#000511"/>
+      <stop offset="0.82" stop-color="#000A20"/>
+      <stop offset="1" stop-color="#031A4C"/>
+    </radialGradient>
+
+    <linearGradient id="blue-left" gradientUnits="userSpaceOnUse" x1="226" y1="350" x2="642" y2="917">
+      <stop offset="0" stop-color="#006CFF"/>
+      <stop offset="0.48" stop-color="#005BFE"/>
+      <stop offset="1" stop-color="#004DF7"/>
+    </linearGradient>
+
+    <linearGradient id="blue-upper" gradientUnits="userSpaceOnUse" x1="848" y1="350" x2="621" y2="718">
+      <stop offset="0" stop-color="#087FFF"/>
+      <stop offset="0.56" stop-color="#0066FE"/>
+      <stop offset="1" stop-color="#0050F6"/>
+    </linearGradient>
+
+    <linearGradient id="blue-lower" gradientUnits="userSpaceOnUse" x1="836" y1="739" x2="631" y2="917">
+      <stop offset="0" stop-color="#0877FF"/>
+      <stop offset="0.58" stop-color="#005EFE"/>
+      <stop offset="1" stop-color="#004FF6"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" gradientUnits="userSpaceOnUse" x1="1038" y1="360" x2="779" y2="699">
+      <stop offset="0" stop-color="#13E3DE"/>
+      <stop offset="0.48" stop-color="#00D1EB"/>
+      <stop offset="1" stop-color="#00B9F7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1254" height="1254" fill="#FFFFFF"/>
+
+  <circle cx="627" cy="627" r="627" fill="url(#ring)"/>
+
+  <circle cx="627" cy="627" r="604" fill="url(#disc)"/>
+
+<circle
+ cx="627"
+ cy="627"
+ r="603"
+ fill="none"
+ stroke="url(#inner-ring)"
+ stroke-width="4"/>
+
+<path
+ d="M221 357
+    H397
+    C412 357 425 365 433 378
+    L658 744
+    C663 752 663 759 658 768
+    L573 906
+    C568 915 557 915 552 906
+    L216 370
+    C211 362 215 357 221 357
+    Z"
+ fill="url(#blue-left)"
+ stroke="#009CFF"
+ stroke-width="1.5"
+ stroke-linejoin="round"/>
+
+<path
+ d="M783 357
+    H887
+    C894 357 896 362 892 369
+    L691 711
+    C687 719 677 720 672 711
+    L611 612
+    C608 607 608 601 611 596
+    L746 376
+    C754 363 766 357 783 357
+    Z"
+ fill="url(#blue-upper)"
+ stroke="#009DFF"
+ stroke-width="1.5"
+ stroke-linejoin="round"/>
+
+<path
+ d="M716 743
+    H846
+    C852 743 854 749 851 755
+    L769 889
+    C760 904 745 912 728 912
+    H624
+    C617 912 615 907 619 901
+    L700 763
+    C705 752 711 746 716 743
+    Z"
+ fill="url(#blue-lower)"
+ stroke="#008EFF"
+ stroke-width="1.5"
+ stroke-linejoin="round"/>
+
+<path
+ d="M949 357
+    H1014
+    C1034 357 1049 372 1050 390
+    C1050 396 1048 402 1045 407
+    L1038 419
+    C1033 427 1026 430 1016 430
+    H922
+    C912 430 906 419 911 410
+    L936 368
+    C940 361 945 357 949 357
+    Z"
+ fill="url(#cyan)"
+ stroke="#16EAE5"
+ stroke-width="1.5"
+ stroke-linejoin="round"/>
+
+<path
+ d="M872 494
+    H953
+    C973 494 985 508 984 524
+    C984 530 982 535 979 540
+    L969 555
+    C964 562 958 564 948 564
+    H847
+    C837 564 831 553 836 544
+    L858 506
+    C862 499 867 495 872 494
+    Z"
+ fill="url(#cyan)"
+ stroke="#13E5E5"
+ stroke-width="1.5"
+ stroke-linejoin="round"/>
+
+<path
+ d="M791 627
+    H874
+    C895 627 907 641 907 656
+    C907 662 905 668 902 673
+    L892 687
+    C887 693 881 695 872 695
+    H769
+    C759 695 753 684 758 675
+    L780 638
+    C784 631 788 628 791 627
+    Z"
+ fill="url(#cyan)"
+ stroke="#10E2E7"
+ stroke-width="1.5"
+ stroke-linejoin="round"/> </svg>

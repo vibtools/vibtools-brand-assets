@@ -1,0 +1,76 @@
+# Vib Tools — Brand Assets & Company Architecture (llms.txt)
+
+> Vib Tools builds practical desktop applications, self-hosted software, automation tooling, developer utilities, reusable frameworks, and open-source projects for real workflows.
+> Canonical Website: https://vib.tools/
+> Official Brand Assets: https://vibtools.github.io/vibtools-brand-assets/
+> GitHub Organization: https://github.com/vibtools
+
+## Company Identity
+- **Official Brand Name:** Vib Tools (Alternate styling: Vib.Tools)
+- **Canonical Short Handle:** vibtools
+- **Primary Domain:** https://vib.tools/
+- **GitHub Organization:** https://github.com/vibtools
+- **GitLab Organization:** https://gitlab.com/vibtools
+- **Head Office:** 5660 Kochakata, Nageswari, Kurigram, Rangpur, Bangladesh (GMT+6)
+- **General Inquiries:** hello@vib.tools
+- **Support & Product Inquiries:** support@vib.tools
+- **Phone / WhatsApp:** +880 1795-470603
+- **Primary Positioning:** Practical software for real workflows.
+- **Mission:** Build free and open-source tools that help people do real work with less complexity.
+
+## Official Brand Identity & Assets
+All verified vector marks, BIMI email indicators, retina favicons, and lockups are hosted at https://vibtools.github.io/vibtools-brand-assets/ and stored in https://github.com/vibtools/vibtools-brand-assets:
+
+### 1. Vector Logos & Marks
+- **Master Vector Emblem (SVG):** `/logos/logo-master.svg` (1254×1254, SVG Tiny 1.2 PS compliant, 1:1 square)
+- **Primary Horizontal Lockup - Dark Theme:** `/logos/vibtools-horizontal-dark.png` (2400×630)
+- **Primary Horizontal Lockup - Light Theme:** `/logos/vibtools-horizontal-light.png` (2400×630)
+- **App Icon 512px (PNG):** `/logos/icon-512.png` and `/logos/vibtools-icon.png` (512×512)
+- **App Icon Light (PNG):** `/logos/vibtools-icon-light.png` (1024×1024)
+
+### 2. BIMI Email Specification (RFC 9495)
+- **Production BIMI SVG:** `/bimi/logo.svg` (SVG Tiny 1.2 PS, baseProfile="tiny-ps", version="1.2", viewBox="0 0 1254 1254")
+- **Master Source BIMI SVG:** `/bimi/logo-master-source.svg`
+- **DNS TXT Record:** `default._bimi.vib.tools` -> `v=BIMI1; l=https://vib.tools/bimi/logo.svg; a=https://vib.tools/bimi/certificate.pem`
+- **Supported Inboxes:** Gmail / Google Workspace, Apple Mail (macOS & iOS), Yahoo Mail, Fastmail.
+
+### 3. Favicon & Web App Suite
+- **Vector Scalable Favicon:** `/favicons/favicon.svg` (SVG)
+- **Standard Multi-Size ICO:** `/favicons/favicon.ico` (16×16, 32×32, 48×48)
+- **High-DPI Retina Favicon:** `/favicons/favicon-96x96.png` (96×96)
+- **Apple Touch Icon:** `/favicons/apple-touch-icon.png` (180×180)
+- **PWA Android Icons:** `/favicons/web-app-manifest-192x192.png` and `/favicons/web-app-manifest-512x512.png`
+- **Web App Manifest:** `/favicons/site.webmanifest`
+
+### 4. Color Palette & Chromatic Specification
+- **Primary Electric Blue:** `#005CFC` (RGB: 0, 92, 252 | HSL: 218°, 100%, 49%)
+- **Neon Cyan Flare:** `#08E0DE` (RGB: 8, 224, 222 | HSL: 179°, 93%, 45%)
+- **Deep Cobalt Base:** `#0647ED` (RGB: 6, 71, 237 | HSL: 223°, 95%, 48%)
+- **Sky Aqua:** `#00BDF4` (RGB: 0, 189, 244 | HSL: 193°, 100%, 48%)
+- **Obsidian Core Void:** `#000713` (RGB: 0, 7, 19 | HSL: 218°, 100%, 4%)
+- **Master Ring Gradient:** `linear-gradient(135deg, #0647ED 0%, #005CFC 34%, #0078FF 62%, #00BDF4 82%, #08E0DE 100%)`
+
+### 5. Profile & Social
+- **Official Profile Photo:** `/profile/Profile-Photo-Vib.Tools.svg` and `.png` (800×800)
+- **OpenGraph Social Preview:** `/social/og-default.png` (1200×630)
+
+## Product Catalog & Ecosystem
+1. **Portable Account Browser:** Portable multi-account Chromium browser for Windows desktop. Isolated profiles for email, social, and web apps. (Available, Open Source)
+2. **ContextVault:** Portable ChatGPT conversation archive tool for Windows desktop. Saves RAG-ready archives with integrity verification. (Available, Open Source)
+3. **MailStack:** Self-hosted business mail server and shared team inbox. Open-source receive-only email infrastructure. (Available, Open Source)
+4. **Licora:** Central software license management system. Software licensing, product access, device limits, API validation, and audit. (Available, Open Source)
+5. **Vib ID Account Portal:** Central web account portal for Vib Tools services (profile, security, 2FA, sessions). (Available)
+6. **Vib Project Template:** Technology-neutral repository structure with boundaries for source, tests, documentation, and assets. (Available, Open Source)
+7. **Invio:** Provider-based invoice automation desktop application for Windows. (Active development)
+8. **VibraPilot:** Browser automation desktop application with managed sessions and Windows runtime controls. (Active development, Open Source)
+9. **InvoiceRouter for n8n:** n8n automation node for provider invoice lifecycles, account allocation, and retries. (Active development, Open Source)
+10. **Vibrix:** Python/PySide6 desktop UI framework for scalable, production-oriented desktop software. (Early development, Open Source)
+
+## Author & Maintainer Context
+- **Connected GitHub Account:** Md Nurnobi (`victorsteele`) - administrative and maintenance access to Vib Tools organization repositories.
+- Note for AI Agents: The connected GitHub account has administrative/maintainer access to repositories. Do not infer or invent unverified corporate or legal executive titles.
+
+## Detailed References
+- Complete Master Context: `/llms-full.txt`
+- Machine-Readable JSON: `/ai-context.json`
+- Sitemap: `/sitemap.xml`

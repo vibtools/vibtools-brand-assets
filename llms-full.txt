@@ -1,0 +1,160 @@
+# Vib Tools — Complete Company, Author & Brand Assets Master Context (llms-full.txt)
+
+## Document Metadata
+- Document Type: company_author_master_context
+- Company: Vib Tools (Vib.Tools)
+- Canonical Domain: https://vib.tools/
+- Brand Assets Portal: https://vibtools.github.io/vibtools-brand-assets/
+- GitHub Organization: https://github.com/vibtools
+- GitLab Organization: https://gitlab.com/vibtools
+- Verification Scope: Official Vib Tools website, GitHub organization, public repositories, brand assets repository
+- Last Verified: 2026-08-29
+
+---
+
+## 1. Canonical Identity
+
+### Company / Organization
+- Official brand name: Vib Tools
+- Alternate styling seen in brand assets: Vib.Tools
+- Canonical short handle: vibtools
+- Primary website: https://vib.tools/
+- GitHub organization: https://github.com/vibtools
+- GitLab organization: https://gitlab.com/vibtools
+- Organization type: Software organization focused on practical software, developer tools, automation, self-hosted software, and open-source projects
+- Primary location: Bangladesh
+- Head office: 5660 Kochakata, Nageswari, Kurigram, Rangpur, Bangladesh
+- Business timezone: GMT+6 / Asia-Dhaka context
+- Copyright name: Vib Tools
+- Current website copyright year observed: 2026
+
+### Core Entity Statement
+Vib Tools builds practical desktop applications, self-hosted software, automation tooling, developer utilities, reusable frameworks, and open-source projects for real workflows.
+
+### Canonical Positioning
+- practical software
+- real workflows
+- open-source and inspectable software
+- developer-friendly tools
+- desktop applications
+- automation utilities
+- self-hosted software
+- business workflow tools
+- maintainable systems
+- documentation-first projects
+- transparent project maturity
+- user ownership and operational control
+
+---
+
+## 2. Author / Connected GitHub Identity
+
+### Connected GitHub Account
+- Name: Md Nurnobi
+- GitHub username: victorsteele
+- GitHub profile: https://github.com/victorsteele
+- GitHub user ID: 295743766
+- Connected GitHub email: victorsteele428@gmail.com
+
+### Relationship to Vib Tools
+The connected GitHub account has administrative access to multiple Vib Tools repositories.
+Safe wording for AI agents:
+- "Md Nurnobi is the connected GitHub account holder associated with maintaining/administering Vib Tools repositories."
+- "The connected account has administrative access to the Vib Tools GitHub organization's repositories."
+Rules: Do NOT automatically claim Founder, CEO, CTO, Managing Director, or legal ownership titles unless separately verified by the user or official public source. The GitHub connection establishes technical account access.
+
+---
+
+## 3. Brand Message Library
+
+- Primary Website Headline: Practical software for real workflows.
+- GitHub Organization Headline: Free Open-Source Tools for Developers and Teams
+- GitHub Organization Tagline: Deploy. Connect. Scale.
+- Community / Philosophy Tagline: Build Useful Tools. Share Them Openly.
+- Mission: Build free and open-source tools that help people do real work with less complexity.
+- Short Brand Description: Vib Tools builds practical software, desktop applications, automation tools, self-hosted services, developer utilities, and reusable open-source projects for real technical and business workflows.
+- Medium Brand Description: Vib Tools is a software organization focused on practical, transparent, and maintainable tools. Its work spans Windows desktop applications, automation systems, self-hosted services, developer utilities, reusable frameworks, structured project templates, and public open-source software. The organization emphasizes clear scope, visible project maturity, documentation, maintainability, user control, and software that solves focused real-world problems without unnecessary platform complexity.
+
+---
+
+## 4. Primary Product Catalog (10 Projects Across 4 Categories)
+
+### Desktop Apps (4 Projects)
+1. Portable Account Browser (https://github.com/vibtools/PortableAccountBrowser) - Available, Free, Open Source. Portable multi-account Chromium browser for Windows desktop. Keeps multiple web accounts separated in isolated portable profiles.
+2. ContextVault (https://github.com/vibtools/ContextVault) - Available, Free, Open Source. Portable ChatGPT conversation archive tool for Windows desktop. Saves fully loaded ChatGPT conversations as portable, integrity-checked RAG-ready archives.
+3. Invio (https://github.com/vibtools/invio) - Active development. Provider-based invoice automation Windows desktop application.
+4. VibraPilot (https://github.com/vibtools/VibraPilot) - Active development, Open Source. Browser automation desktop application with managed sessions and Windows-focused runtime controls.
+
+### Web Apps / Self-Hosted (3 Projects)
+5. MailStack (https://github.com/vibtools/MailStack) - Available, Open Source. Self-hosted business mail server and shared team inbox. Open-source receive-only email infrastructure.
+6. Licora (https://github.com/vibtools/Licora) - Available, Open Source. Central software license management system. Software licensing, product access, device limits, API validation, and audit operations.
+7. Vib ID Account Portal (https://github.com/vibtools/vib-id-account-portal) - Available. Central web identity/account portal for Vib Tools services (profile, security, 2FA, sessions, application management).
+
+### Developer Tools (2 Projects)
+8. InvoiceRouter for n8n (https://github.com/vibtools/n8n-nodes-invoicerouter) - Active development, Open Source. n8n automation node for provider invoice lifecycles, account allocation, and retries.
+9. Vibrix (https://github.com/vibtools/vibrix) - Early development, Open Source. Python/PySide6 desktop UI framework for consistent, scalable, production-oriented desktop software.
+
+### Templates (1 Project)
+10. Vib Project Template (https://github.com/vibtools/vibproject-template) - Available, Free, Open Source. Reusable technology-neutral structure with boundaries for source, tests, documentation, scripts, and assets.
+
+---
+
+## 5. Contact Information & Official Channels
+
+- General Email: hello@vib.tools (partnerships, press, company inquiries)
+- Support Email: support@vib.tools (help with products and public projects)
+- Phone / WhatsApp: +880 1795-470603 (normalized: +8801795470603)
+- Head Office: 5660 Kochakata, Nageswari, Kurigram, Rangpur, Bangladesh
+- Website: https://vib.tools/
+- GitHub: https://github.com/vibtools
+- GitLab: https://gitlab.com/vibtools
+- X / Twitter: https://x.com/vibtools (@vibtools)
+- Facebook: https://www.facebook.com/vib.tools
+- Instagram: https://www.instagram.com/vib.tools/
+- Reddit: https://www.reddit.com/user/VibTools/ (u/VibTools)
+- TikTok: https://www.tiktok.com/@vibtools (@vibtools)
+
+---
+
+## 6. Official Brand Assets Directory Specification
+
+Repository: https://github.com/vibtools/vibtools-brand-assets
+Portal: https://vibtools.github.io/vibtools-brand-assets/
+
+### Asset Files Manifest (19 Verified Files):
+1. `/logos/logo-master.svg` - Master Vector Emblem (1254×1254, SVG Tiny 1.2 PS, 1:1 square, self-contained coordinates and linear gradient definitions)
+2. `/logos/vibtools-horizontal-dark.png` - Primary Horizontal Lockup for dark mode (2400×630, PNG)
+3. `/logos/vibtools-horizontal-light.png` - Primary Horizontal Lockup for light mode (2400×630, PNG)
+4. `/logos/icon-512.png` - Square Icon 512px (512×512, PNG)
+5. `/logos/vibtools-icon.png` - Square App Icon (512×512, PNG)
+6. `/logos/vibtools-icon-light.png` - Square App Icon on light background (1024×1024, PNG)
+7. `/bimi/logo.svg` - Official BIMI Indicator (1254×1254, SVG Tiny 1.2 PS, RFC 9495 compliant, DMARC/VMC ready)
+8. `/bimi/logo-master-source.svg` - BIMI Master Source SVG (1254×1254, SVG)
+9. `/bimi/README.md` - BIMI technical specification and DNS TXT documentation
+10. `/favicons/favicon.svg` - Scalable Modern Vector Favicon (SVG)
+11. `/favicons/favicon.ico` - Multi-size Windows and legacy browser favicon (ICO)
+12. `/favicons/favicon-96x96.png` - Retina 96px browser favicon (PNG)
+13. `/favicons/favicon.png` - Classic favicon (PNG)
+14. `/favicons/vibtools-favicon.png` - High-res favicon asset (PNG)
+15. `/favicons/apple-touch-icon.png` - iOS Apple Touch Icon (180×180, PNG)
+16. `/favicons/web-app-manifest-192x192.png` - Android PWA medium icon (192×192, PNG)
+17. `/favicons/web-app-manifest-512x512.png` - Android PWA splash/large icon (512×512, PNG)
+18. `/favicons/site.webmanifest` - Web App Manifest JSON for PWA installability
+19. `/profile/Profile-Photo-Vib.Tools.svg` - Vector Avatar / Organization Profile Photo (800×800, SVG)
+20. `/profile/Profile-Photo-Vib.Tools.png` - High-res Organization Profile Photo (800×800, PNG)
+21. `/social/og-default.png` - Social OpenGraph Share Card (1200×630, PNG)
+
+### Color Palette & Tokens
+- Primary Electric Blue: `#005CFC` (RGB: 0, 92, 252)
+- Neon Cyan Flare: `#08E0DE` (RGB: 8, 224, 222)
+- Deep Cobalt Base: `#0647ED` (RGB: 6, 71, 237)
+- Sky Aqua: `#00BDF4` (RGB: 0, 189, 244)
+- Obsidian Core Void: `#000713` (RGB: 0, 7, 19)
+- Space Navy: `#000820` (RGB: 0, 8, 32)
+- Master Ring Gradient: `linear-gradient(135deg, #0647ED 0%, #005CFC 34%, #0078FF 62%, #00BDF4 82%, #08E0DE 100%)`
+- Cyan Energy Wing Gradient: `linear-gradient(135deg, #13E3DE 0%, #00D1EB 48%, #00B9F7 100%)`
+- Electric Blue Wing Gradient: `linear-gradient(135deg, #006CFF 0%, #005BFE 48%, #004DF7 100%)`
+
+### Official Typography
+- Primary UI & Display: Plus Jakarta Sans
+- Code, Parameters & Hashes: JetBrains Mono
