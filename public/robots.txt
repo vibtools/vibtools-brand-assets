@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Explicit AI Agent Crawler Permissions
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# AI Semantic Context & Documentation Endpoints
+Sitemap: https://vibtools.github.io/vibtools-brand-assets/sitemap.xml
+# LLMs Context Document: https://vibtools.github.io/vibtools-brand-assets/llms.txt
+# Full LLMs Master Context: https://vibtools.github.io/vibtools-brand-assets/llms-full.txt
+# Machine Readable JSON: https://vibtools.github.io/vibtools-brand-assets/ai-context.json

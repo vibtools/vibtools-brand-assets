@@ -32,18 +32,48 @@
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
-/* Custom subtle scrollbar */
+/* Custom small size compact scrollbar across all elements */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b #030712;
+}
+
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
 }
+
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 42, 0.6);
+  background: #030712;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: rgba(51, 65, 85, 0.7);
-  border-radius: 4px;
+  background: #1e293b;
+  border-radius: 9999px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(71, 85, 105, 0.9);
+  background: #005CFC;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Compact micro scrollbar for code and modals */
+.compact-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.compact-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+.compact-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00BDF4;
 }

@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "document_type": "company_author_master_context",
+  "version": "1.0.0",
+  "last_verified": "2026-08-29",
+  "organization": {
+    "name": "Vib Tools",
+    "alternate_names": ["Vib.Tools", "vibtools"],
+    "canonical_handle": "vibtools",
+    "canonical_domain": "https://vib.tools/",
+    "brand_assets_portal": "https://vibtools.github.io/vibtools-brand-assets/",
+    "github_organization": "https://github.com/vibtools",
+    "gitlab_organization": "https://gitlab.com/vibtools",
+    "organization_type": "Software Organization",
+    "head_office": {
+      "address": "5660 Kochakata, Nageswari",
+      "city": "Kurigram",
+      "region": "Rangpur",
+      "country": "Bangladesh",
+      "timezone": "GMT+6 (Asia/Dhaka)"
+    },
+    "contact": {
+      "general_email": "hello@vib.tools",
+      "support_email": "support@vib.tools",
+      "phone": "+880 1795-470603",
+      "whatsapp": "+8801795470603"
+    },
+    "social_profiles": {
+      "github": "https://github.com/vibtools",
+      "gitlab": "https://gitlab.com/vibtools",
+      "twitter_x": "https://x.com/vibtools",
+      "facebook": "https://www.facebook.com/vib.tools",
+      "instagram": "https://www.instagram.com/vib.tools/",
+      "reddit": "https://www.reddit.com/user/VibTools/",
+      "tiktok": "https://www.tiktok.com/@vibtools"
+    },
+    "positioning": {
+      "core_statement": "Vib Tools builds practical desktop applications, self-hosted software, automation tooling, developer utilities, reusable frameworks, and open-source projects for real workflows.",
+      "headline": "Practical software for real workflows.",
+      "github_headline": "Free Open-Source Tools for Developers and Teams",
+      "github_tagline": "Deploy. Connect. Scale.",
+      "community_tagline": "Build Useful Tools. Share Them Openly.",
+      "mission": "Build free and open-source tools that help people do real work with less complexity."
+    },
+    "services": [
+      "Custom Software Development",
+      "Open-Source Product Engineering",
+      "Desktop & Automation Tools",
+      "Web & Developer Platforms"
+    ]
+  },
+  "author_maintainer": {
+    "name": "Md Nurnobi",
+    "github_username": "victorsteele",
+    "github_profile": "https://github.com/victorsteele",
+    "github_user_id": "295743766",
+    "email": "victorsteele428@gmail.com",
+    "relationship": "Connected GitHub account holder with administrative access to maintain Vib Tools repositories. (Do not infer unverified corporate/legal executive titles)."
+  },
+  "product_catalog": [
+    {
+      "name": "Portable Account Browser",
+      "repository": "https://github.com/vibtools/PortableAccountBrowser",
+      "platform": "Windows Desktop",
+      "status": "Available",
+      "category": "Desktop Apps",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Portable multi-account Chromium browser keeping multiple web accounts separated in isolated portable profiles."
+    },
+    {
+      "name": "ContextVault",
+      "repository": "https://github.com/vibtools/ContextVault",
+      "platform": "Windows Desktop",
+      "status": "Available",
+      "category": "Desktop Apps",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Portable ChatGPT conversation archive tool. Saves fully loaded ChatGPT conversations as portable, integrity-checked RAG-ready archives."
+    },
+    {
+      "name": "Invio",
+      "repository": "https://github.com/vibtools/invio",
+      "platform": "Windows Desktop",
+      "status": "Active Development",
+      "category": "Desktop Apps",
+      "is_open_source": true,
+      "is_free": false,
+      "description": "Provider-based invoice automation desktop application."
+    },
+    {
+      "name": "VibraPilot",
+      "repository": "https://github.com/vibtools/VibraPilot",
+      "platform": "Windows Desktop",
+      "status": "Active Development",
+      "category": "Desktop Apps",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Browser automation desktop application with managed sessions and Windows-focused runtime controls."
+    },
+    {
+      "name": "MailStack",
+      "repository": "https://github.com/vibtools/MailStack",
+      "platform": "Self-Hosted Web/Server",
+      "status": "Available",
+      "category": "Web Apps / Self-Hosted",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Open-source self-hosted business mail server and shared team inbox for receive-only business email."
+    },
+    {
+      "name": "Licora",
+      "repository": "https://github.com/vibtools/Licora",
+      "platform": "Self-Hosted Web Application",
+      "status": "Available",
+      "category": "Web Apps / Self-Hosted",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Central software license management system for product access, device limits, API validation, and audit operations."
+    },
+    {
+      "name": "Vib ID Account Portal",
+      "repository": "https://github.com/vibtools/vib-id-account-portal",
+      "platform": "Web Application",
+      "status": "Available",
+      "category": "Web Apps / Self-Hosted",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Central account portal for Vib Tools services (profile, security, 2FA, sessions)."
+    },
+    {
+      "name": "InvoiceRouter for n8n",
+      "repository": "https://github.com/vibtools/n8n-nodes-invoicerouter",
+      "platform": "n8n Community Node",
+      "status": "Active Development",
+      "category": "Developer Tools",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "n8n automation node for provider invoice lifecycles, account allocation, retries, and workflow automation."
+    },
+    {
+      "name": "Vibrix",
+      "repository": "https://github.com/vibtools/vibrix",
+      "platform": "Python / PySide6",
+      "status": "Early Development",
+      "category": "Developer Tools",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Reusable desktop UI framework for consistent, scalable, production-oriented Python applications."
+    },
+    {
+      "name": "Vib Project Template",
+      "repository": "https://github.com/vibtools/vibproject-template",
+      "platform": "Template",
+      "status": "Available",
+      "category": "Templates",
+      "is_open_source": true,
+      "is_free": true,
+      "description": "Technology-neutral project and repository template with clear boundaries for source, tests, documentation, and scripts."
+    }
+  ],
+  "brand_assets": {
+    "repository": "https://github.com/vibtools/vibtools-brand-assets",
+    "base_url": "https://vibtools.github.io/vibtools-brand-assets/",
+    "files": [
+      {
+        "id": "logo-master-svg",
+        "name": "Vib.Tools Master Emblem (SVG)",
+        "file_path": "logos/logo-master.svg",
+        "format": "SVG",
+        "standard": "SVG Tiny 1.2 PS",
+        "dimensions": "1254x1254",
+        "aspect_ratio": "1:1"
+      },
+      {
+        "id": "bimi-logo-svg",
+        "name": "Vib.Tools Official BIMI SVG",
+        "file_path": "bimi/logo.svg",
+        "format": "SVG",
+        "standard": "RFC 9495 SVG Tiny 1.2 PS",
+        "dimensions": "1254x1254",
+        "aspect_ratio": "1:1",
+        "dns_record": "v=BIMI1; l=https://vib.tools/bimi/logo.svg; a=https://vib.tools/bimi/certificate.pem"
+      },
+      {
+        "id": "logo-horizontal-dark",
+        "name": "Vib.Tools Horizontal Logo (Dark)",
+        "file_path": "logos/vibtools-horizontal-dark.png",
+        "format": "PNG",
+        "dimensions": "2400x630"
+      },
+      {
+        "id": "logo-horizontal-light",
+        "name": "Vib.Tools Horizontal Logo (Light)",
+        "file_path": "logos/vibtools-horizontal-light.png",
+        "format": "PNG",
+        "dimensions": "2400x630"
+      },
+      {
+        "id": "favicon-svg",
+        "name": "Vib.Tools Favicon SVG",
+        "file_path": "favicons/favicon.svg",
+        "format": "SVG",
+        "dimensions": "Scalable Vector"
+      },
+      {
+        "id": "favicon-ico",
+        "name": "Vib.Tools Favicon ICO",
+        "file_path": "favicons/favicon.ico",
+        "format": "ICO",
+        "dimensions": "16x16, 32x32, 48x48"
+      },
+      {
+        "id": "apple-touch-icon",
+        "name": "Apple Touch Icon",
+        "file_path": "favicons/apple-touch-icon.png",
+        "format": "PNG",
+        "dimensions": "180x180"
+      },
+      {
+        "id": "pwa-manifest-192",
+        "name": "PWA Manifest Icon (192px)",
+        "file_path": "favicons/web-app-manifest-192x192.png",
+        "format": "PNG",
+        "dimensions": "192x192"
+      },
+      {
+        "id": "pwa-manifest-512",
+        "name": "PWA Manifest Icon (512px)",
+        "file_path": "favicons/web-app-manifest-512x512.png",
+        "format": "PNG",
+        "dimensions": "512x512"
+      },
+      {
+        "id": "site-webmanifest",
+        "name": "Web App Manifest",
+        "file_path": "favicons/site.webmanifest",
+        "format": "MANIFEST"
+      },
+      {
+        "id": "social-og-default",
+        "name": "Social OpenGraph Card",
+        "file_path": "social/og-default.png",
+        "format": "PNG",
+        "dimensions": "1200x630"
+      }
+    ],
+    "color_palette": {
+      "electric_blue": "#005CFC",
+      "neon_cyan": "#08E0DE",
+      "deep_cobalt": "#0647ED",
+      "sky_aqua": "#00BDF4",
+      "obsidian_void": "#000713",
+      "master_gradient": "linear-gradient(135deg, #0647ED 0%, #005CFC 34%, #0078FF 62%, #00BDF4 82%, #08E0DE 100%)"
+    }
+  }
+}
